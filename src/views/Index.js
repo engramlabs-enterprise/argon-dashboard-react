@@ -75,7 +75,7 @@ const Index = (props) => {
                     <h6 className="text-uppercase text-light ls-1 mb-1">
                       Overview
                     </h6>
-                    <h2 className="text-white mb-0">Sales value</h2>
+                    <h2 className="text-white mb-0">Zakat Distribution</h2>
                   </div>
                   <div className="col">
                     <Nav className="justify-content-end" pills>
@@ -128,7 +128,7 @@ const Index = (props) => {
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
                       Performance
                     </h6>
-                    <h2 className="mb-0">Total orders</h2>
+                    <h2 className="mb-0">Presentase Penghimpunan</h2>
                   </div>
                 </Row>
               </CardHeader>
@@ -150,7 +150,7 @@ const Index = (props) => {
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Page visits</h3>
+                    <h3 className="mb-0">Presentase Blockchain Zakat Statistic</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -167,55 +167,48 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Page name</th>
-                    <th scope="col">Visitors</th>
-                    <th scope="col">Unique users</th>
-                    <th scope="col">Bounce rate</th>
+                    <th scope="col">TANGGAL TRANSAKSI</th>
+                    <th scope="col">JENIS TRANSAKSI</th>
+                    <th scope="col">KATEGORI</th>
+                    <th scope="col">LEMBAGA AMIL</th>
+                    <th scope="col">MUSTAHIK</th>
+                    <th scope="col">NOMINAL</th>
+                    <th scope="col">ACTION</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">/argon/</th>
-                    <td>4,569</td>
-                    <td>340</td>
-                    <td>
-                      <i className="fas fa-arrow-up text-success mr-3" /> 46,53%
-                    </td>
+                    <th scope="row">May 16 2024 13:18:49</th>
+                    <td>Zakat</td>
+                    <td>Zakat Mal</td>
+                    <td>Dompet Dhuafa</td>
+                    <td>Andi</td>
+                    <td><i className="fas fa-arrow-up text-success mr-3" />5.000.000</td>
+                    <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+                    <Button className="mr-4" color="info" href="https://tokioscan-v2.engram.tech/tx/0x6fa70dc2197d295bdc2da723d00812b1ca051fc1523a04c637766c21d7f08b7d" target="_blank" rel="noopener noreferrer" size="sm" style={{ marginTop: '5px', marginLeft: '-29px' }} >On-chain Transaksi</Button>
+                  </div>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/index.html</th>
-                    <td>3,985</td>
-                    <td>319</td>
-                    <td>
-                      <i className="fas fa-arrow-down text-warning mr-3" />{" "}
-                      46,53%
-                    </td>
+                    <th scope="row">May 16 2024 13:19:13</th>
+                    <td>Zakat</td>
+                    <td>Zakat Mal</td>
+                    <td>Lazizmu</td>
+                    <td>Toni</td>
+                    <td><i className="fas fa-arrow-up text-success mr-3" />2.000.000</td>
+                    <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+                    <Button className="mr-4" color="info" href="https://tokioscan-v2.engram.tech/tx/0xbc43c4603b9a7c1ae18fd38c5fa46d210605e9646f1735a44b741dabc29954c0" target="_blank" rel="noopener noreferrer" size="sm" style={{ marginTop: '5px', marginLeft: '-29px' }} >On-chain Transaksi</Button>
+                  </div>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/charts.html</th>
-                    <td>3,513</td>
-                    <td>294</td>
-                    <td>
-                      <i className="fas fa-arrow-down text-warning mr-3" />{" "}
-                      36,49%
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">/argon/tables.html</th>
-                    <td>2,050</td>
-                    <td>147</td>
-                    <td>
-                      <i className="fas fa-arrow-up text-success mr-3" /> 50,87%
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">/argon/profile.html</th>
-                    <td>1,795</td>
-                    <td>190</td>
-                    <td>
-                      <i className="fas fa-arrow-down text-danger mr-3" />{" "}
-                      46,53%
-                    </td>
+                    <th scope="row">May 16 2024 13:21:01</th>
+                    <td>Zakat</td>
+                    <td>Zakat Mal</td>
+                    <td>Dompet Dhuafa</td>
+                    <td>Adit</td>
+                    <td><i className="fas fa-arrow-up text-success mr-3" />3.000.000</td>
+                    <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+                    <Button className="mr-4" color="info" href="https://tokioscan-v2.engram.tech/tx/0xd477908246b69f73d6f64f816026a3fcce5ffaea9046e9fb006eab329ccd417f" target="_blank" rel="noopener noreferrer" size="sm" style={{ marginTop: '5px', marginLeft: '-29px' }} >On-chain Transaksi</Button>
+                  </div>
                   </tr>
                 </tbody>
               </Table>
@@ -226,7 +219,7 @@ const Index = (props) => {
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Social traffic</h3>
+                    <h3 className="mb-0">Blockchain traffic</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -243,22 +236,22 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Referral</th>
-                    <th scope="col">Visitors</th>
+                    <th scope="col">Block</th>
+                    <th scope="col">Konsumsi Biaya Transaksi</th>
                     <th scope="col" />
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">Facebook</th>
-                    <td>1,480</td>
+                    <th scope="row"><a href="https://tokioscan-v2.engram.tech/block/47230" target="_blank" rel="noopener noreferrer">47230</a></th>
+                    <td><i className="fas fa-arrow-up text-success mr-3"/>0.000023024000161168 GRAM</td>
                     <td>
                       <div className="d-flex align-items-center">
-                        <span className="mr-2">60%</span>
+                        <span className="mr-2">23.02%</span>
                         <div>
                           <Progress
                             max="100"
-                            value="60"
+                            value="23"
                             barClassName="bg-gradient-danger"
                           />
                         </div>
@@ -266,15 +259,15 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Facebook</th>
-                    <td>5,480</td>
+                  <th scope="row"><a href="https://tokioscan-v2.engram.tech/block/47232" target="_blank" rel="noopener noreferrer">47232</a></th>
+                  <td><i className="fas fa-arrow-up text-success mr-3"/>0.000023036000161252 GRAM</td>
                     <td>
                       <div className="d-flex align-items-center">
-                        <span className="mr-2">70%</span>
+                        <span className="mr-2">23.04%</span>
                         <div>
                           <Progress
                             max="100"
-                            value="70"
+                            value="23.04"
                             barClassName="bg-gradient-success"
                           />
                         </div>
@@ -282,45 +275,13 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Google</th>
-                    <td>4,807</td>
+                  <th scope="row"><a href="https://tokioscan-v2.engram.tech/block/47238" target="_blank" rel="noopener noreferrer">47238</a></th>
+                  <td><i className="fas fa-arrow-up text-success mr-3"/>0.000023024000161168 GRAM</td>
                     <td>
                       <div className="d-flex align-items-center">
-                        <span className="mr-2">80%</span>
+                        <span className="mr-2">23.00%</span>
                         <div>
-                          <Progress max="100" value="80" />
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Instagram</th>
-                    <td>3,678</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">75%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="75"
-                            barClassName="bg-gradient-info"
-                          />
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">twitter</th>
-                    <td>2,645</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">30%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="30"
-                            barClassName="bg-gradient-warning"
-                          />
+                          <Progress max="100" value="23" />
                         </div>
                       </div>
                     </td>

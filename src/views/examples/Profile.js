@@ -48,7 +48,7 @@ const Profile = () => {
                       <img
                         alt="..."
                         className="rounded-circle"
-                        src={require("../../assets/img/theme/team-4-800x800.jpg")}
+                        src={require("../../assets/img/theme/team-1-800x800.jpg")}
                       />
                     </a>
                   </div>
@@ -63,7 +63,7 @@ const Profile = () => {
                     onClick={(e) => e.preventDefault()}
                     size="sm"
                   >
-                    Connect
+                    Backup Mnemonic
                   </Button>
                   <Button
                     className="float-right"
@@ -72,7 +72,7 @@ const Profile = () => {
                     onClick={(e) => e.preventDefault()}
                     size="sm"
                   >
-                    Message
+                    Copy Public Address
                   </Button>
                 </div>
               </CardHeader>
@@ -97,24 +97,20 @@ const Profile = () => {
                 </Row>
                 <div className="text-center">
                   <h3>
-                    Jessica Jones
+                    Umar Assegaf
                     <span className="font-weight-light">, 27</span>
                   </h3>
                   <div className="h5 font-weight-300">
                     <i className="ni location_pin mr-2" />
-                    Bucharest, Romania
+                    Surabaya, Indonesia
                   </div>
                   <div className="h5 mt-4">
                     <i className="ni business_briefcase-24 mr-2" />
-                    Solution Manager - Creative Tim Officer
-                  </div>
-                  <div>
-                    <i className="ni education_hat mr-2" />
-                    University of Computer Science
+                    Solution Manager - GlideGRAM Officer
                   </div>
                   <hr className="my-4" />
                   <p>
-                    Ryan — the name taken by Melbourne-raised, Brooklyn-based
+                    Umar Assegaf — the name taken by Melbourne-raised, Brooklyn-based
                     Nick Murphy — writes, performs and records all of his own
                     music.
                   </p>
@@ -161,7 +157,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="lucky.jesse"
+                            defaultValue="Umar Assegaf"
                             id="input-username"
                             placeholder="Username"
                             type="text"

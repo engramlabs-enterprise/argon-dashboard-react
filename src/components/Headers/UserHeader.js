@@ -38,10 +38,10 @@ const UserHeader = () => {
         <Container className="d-flex align-items-center" fluid>
           <Row>
             <Col lg="7" md="10">
-              <h1 className="display-2 text-white">Hello Jesse</h1>
+              <h1 className="display-2 text-white">Assalamualaikum 
+                <br></br>Umar Assegaf</h1>
               <p className="text-white mt-0 mb-5">
-                This is your profile page. You can see the progress you've made
-                with your work and manage your projects or assigned tasks
+                 Ini adalah halaman profil Anda yang telah terintegrasi dengan blockchain. Anda dapat melihat kemajuan yang telah dicapai dan mengelola zakat anda dan mencari data histori transaksi di blockchain. 
               </p>
               <Button
                 color="info"
