@@ -38,8 +38,8 @@ const UserHeader = () => {
         <Container className="d-flex align-items-center" fluid>
           <Row>
             <Col lg="7" md="10">
-              <h1 className="display-2 text-white">Assalamualaikum 
-                <br></br>Umar Assegaf</h1>
+              <h1 className="display-2 text-white"> 
+                <br></br>Fathur El-Ghazy</h1>
               <p className="text-white mt-0 mb-5">
                  Ini adalah halaman profil Anda yang telah terintegrasi dengan blockchain. Anda dapat melihat kemajuan yang telah dicapai dan mengelola zakat anda dan mencari data histori transaksi di blockchain. 
               </p>

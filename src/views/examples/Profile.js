@@ -48,7 +48,7 @@ const Profile = () => {
                       <img
                         alt="..."
                         className="rounded-circle"
-                        src={require("../../assets/img/theme/team-1-800x800.jpg")}
+                        src={require("../../assets/img/theme/user-man1.png")}
                       />
                     </a>
                   </div>
@@ -97,7 +97,7 @@ const Profile = () => {
                 </Row>
                 <div className="text-center">
                   <h3>
-                    Umar Assegaf
+                    Fathur El-Ghazy
                     <span className="font-weight-light">, 27</span>
                   </h3>
                   <div className="h5 font-weight-300">
@@ -110,7 +110,7 @@ const Profile = () => {
                   </div>
                   <hr className="my-4" />
                   <p>
-                    Umar Assegaf — the name taken by Melbourne-raised, Brooklyn-based
+                    Fathur El-Ghazy — the name taken by Melbourne-raised, Brooklyn-based
                     Nick Murphy — writes, performs and records all of his own
                     music.
                   </p>
@@ -157,7 +157,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="Umar Assegaf"
+                            defaultValue="Fathur El-Ghazy"
                             id="input-username"
                             placeholder="Username"
                             type="text"
